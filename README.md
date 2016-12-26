@@ -12,8 +12,8 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
 **[apk下载](https://raw.githubusercontent.com/codbking/CalendarExaple/master/calendar_demo.apk)**
 
 *  **先上两张demo的效果图，分别是仿小米和钉钉日历效果图**
-<img src="image/a1.jpg" style="margin-left:100"/>
-<img src="image/a2.jpg" style="margin-left:100"/>
+<img src="image/a1.jpg" height="576" width="324" style="margin-left:100"/>
+<img src="image/a2.jpg"  height="576" width="324" style="margin-left:100"/>
 
 *  **再看下交互效果**
 
