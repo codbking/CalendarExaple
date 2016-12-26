@@ -79,9 +79,9 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
     </com.codbking.calendar.CalendarLayout>
 ```
 
-- "在你的java文件中设置CalendarDateView的CaledarAdapter和CalendarView.OnItemClickListener监听"
+- 在你的java文件中设置CalendarDateView的CaledarAdapter和CalendarView.OnItemClickListener监听
 
-注意：想要设置选中效果，只需设置CaledarAdapter中的view的选中背景
+   注意：想要设置选中效果，只需设置CaledarAdapter中的view的选中背景
 ```java
        mCalendarDateView.setAdapter(new CaledarAdapter() {
             @Override
