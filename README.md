@@ -54,7 +54,7 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
 	}
 ```
 
-- **增加CalendarLayout和CalendarDateView在你的layout.xml**
+- **在layout的xml中添加CalendarLayout和CalendarDateView**
 
   注意：CalendarDateView一定是CalendarLayout第一个view，扩展view必须是CalendarDateView第二个view
 ```xml
@@ -79,7 +79,9 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
     </com.codbking.calendar.CalendarLayout>
 ```
 
-- "设置CalendarDateView的适配器和监听在你的java文件中"
+- "在你的java文件中设置CalendarDateView的CaledarAdapter和CalendarView.OnItemClickListener监听"
+
+注意：想要设置选中效果，只需设置CaledarAdapter中的view的选中背景
 ```java
        mCalendarDateView.setAdapter(new CaledarAdapter() {
             @Override
