@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:id="@+id/weeks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
+
+    <View
+        android:id="@+id/weekline"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/weeks"
+        android:background="#dddddd"
+        />
+
+    <com.ucg.app.calendar.view.CalendarLayout
+        android:id="@+id/calendarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/weekline">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <FrameLayout
+            android:id="@+id/selectZoomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#66ff0000"
+            />
+
+        <com.ucg.app.calendar.view.ScrollerLayout
+            android:layout_below="@+id/selectZoomLayout"
+            android:id="@+id/workContentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:id="@+id/workContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/content"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" />
+
+                    </FrameLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+        </com.ucg.app.calendar.view.ScrollerLayout>
+
+    </com.ucg.app.calendar.view.CalendarLayout>
+
+
+</RelativeLayout>
