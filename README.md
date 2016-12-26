@@ -17,3 +17,4 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
 
 *  **再看下交互效果**
 
+![Alt text](image/bbbb.gif)
