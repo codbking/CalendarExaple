@@ -15,3 +15,5 @@ csdn: [http://my.csdn.net/codbking](http://my.csdn.net/codbking)
 <img src="image/a1.png" style="margin-left:100"/>
 <img src="image/a2.png" style="margin-left:100"/>
 
+*  **再看下交互效果**
+
